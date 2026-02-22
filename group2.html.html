@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Not Too Young To Speak</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="stylegroup2.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-logo">Not Too Young To Speak</div>
+  <div class="hamburger" onclick="toggleMenu()"><span></span><span></span><span></span></div>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#" onclick="showPage('home')" id="nav-home" class="active">Home</a></li>
+    <li><a href="#" onclick="showPage('purpose')" id="nav-purpose">Purpose</a></li>
+    <li><a href="#" onclick="showPage('story')" id="nav-story">Our Story</a></li>
+    <li><a href="#" onclick="showPage('description')" id="nav-description">Platform</a></li>
+    <li><a href="#" onclick="showPage('contact')" id="nav-contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- ════════════════ PAGE 1: HOME ════════════════ -->
+<div id="home" class="page active">
+  <div class="home-hero">
+    <div class="home-hero-bg">
+      <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1600&q=80" alt="Youth gathering"/>
+    </div>
+    <div class="home-hero-content">
+      <p class="hero-eyebrow">Youth Advocacy · Cebu, Philippines</p>
+      <h1 class="hero-h1">We Are<br><em>Not Too Young</em> To Speak.</h1>
+      <p class="hero-sub">Across the Philippines, young voices are dismissed as "immature" or "uninformed." We are here to dismantle that myth — and build a space where the youth are valued, heard, and respected.</p>
+      <div class="hero-actions">
+        <button class="btn btn-red" onclick="showPage('purpose')">Our Purpose</button>
+        <button class="btn btn-outline" onclick="showPage('contact')">Get Involved</button>
+      </div>
+    </div>
+    <div class="hero-deco">2025</div>
+  </div>
+
+  <div class="stat-bar">
+    <div class="stat-item">
+      <div class="stat-num">60%+</div>
+      <div class="stat-label">Of young Filipinos feel their opinions are ignored in community decisions</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">2</div>
+      <div class="stat-label">Digital platforms dedicated to amplifying youth voices nationwide</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">1</div>
+      <div class="stat-label">Clear mission: Make every young voice count — now, not later</div>
+    </div>
+  </div>
+
+  <div class="mv-section">
+    <div class="mv-block mission">
+      <div class="mv-icon">🎯</div>
+      <p class="mv-label">Our Mission</p>
+      <p class="mv-text">To give awareness to this concern and provide young people a place where their voices are valued, heard, and respected.</p>
+    </div>
+    <div class="mv-block vision">
+      <div class="mv-icon">🌅</div>
+      <p class="mv-label">Our Vision</p>
+      <p class="mv-text">To see a society in which youths are free to speak without being judged and discriminated against.</p>
+    </div>
+  </div>
+
+  <div class="feature-strip">
+    <div class="feature-img-side">
+      <img src="https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?w=900&q=80" alt="Youth speaking up"/>
+    </div>
+    <div class="feature-text-side">
+      <p class="section-tag">Why This Matters</p>
+      <h2>Youth Are Stakeholders, Not Spectators</h2>
+      <p>Young people inherit the consequences of today's decisions on climate, justice, and economy. Dismissing their voices isn't just unfair — it is a failure of civic responsibility. When given the platform, youth don't just speak. They lead, inspire, and change the world.</p>
+    </div>
+  </div>
+
+  <div class="article-ref-home">
+    <div class="art-ref-bar"></div>
+    <div class="art-ref-content">
+      <h3>Anti-Ageism: Breaking the Barriers of Youth Silencing — Padigos (2022)</h3>
+      <p>This foundational article shares personal experiences of being doubted and dismissed despite successfully leading school projects and community programs. It proves that "ageism" is a myth — and that when given the chance, young people can lead, inspire, and create meaningful change. No one should ever be discouraged from speaking, no matter how young they are.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ════════════════ PAGE 2: PURPOSE ════════════════ -->
+<div id="purpose" class="page">
+  <div class="purpose-hero">
+    <div class="purpose-hero-img">
+      <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=1600&q=80" alt="Youth leadership"/>
+    </div>
+    <div class="purpose-hero-text">
+      <p class="section-tag">Section II — Purpose</p>
+      <h1>The Problem &amp; The <em>Purpose</em> Behind Us</h1>
+    </div>
+  </div>
+
+  <div class="purpose-body">
+    <div class="prob-col">
+      <p class="section-tag">The "Maturity" Myth</p>
+      <div class="divider"></div>
+      <h2>Why Youth Voices Get Silenced</h2>
+      <p>The primary challenge facing the youth today is the misconception that their advocacy is merely a form of rebellion. When young people speak up about climate change, social justice, or economic policy, their input is dismissed.</p>
+      <p>This dismissal ignores a critical reality: young people are not just leaders of tomorrow; they are <strong>active stakeholders of today</strong> who will inherit the long-term consequences of current decisions.</p>
+      <p>Our project, <strong>"Not Too Young to Speak"</strong>, seeks to dismantle the stigma of "rebellion" and replace it with the framework of responsibility. Taking an interest in societal issues is an act of civic duty — not an act of defiance.</p>
+      <button class="btn btn-red" onclick="showPage('story')" style="margin-top:1.5rem;">Read Our Story</button>
+    </div>
+    <div class="quote-col">
+      <div class="big-quote">"</div>
+      <p class="quote-text">You'll understand when you're older.</p>
+      <p class="quote-cite">— The dismissal young people hear every day</p>
+      <br/><br/>
+      <p style="font-size:0.88rem;line-height:1.75;color:var(--muted);">This five-word sentence has silenced countless generations of capable, passionate, civic-minded young people. We refuse to accept it as a valid response to genuine concern.</p>
+    </div>
+  </div>
+
+  <div class="img-mosaic">
+    <div class="mosaic-cell">
+      <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=700&q=80" alt="Youth discussion"/>
+      <div class="mosaic-overlay"><span class="mosaic-caption">Community Dialogue</span></div>
+    </div>
+    <div class="mosaic-cell">
+      <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=700&q=80" alt="Youth workshop"/>
+      <div class="mosaic-overlay"><span class="mosaic-caption">Empowerment Workshops</span></div>
+    </div>
+    <div class="mosaic-cell">
+      <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=700&q=80" alt="Youth gathering"/>
+      <div class="mosaic-overlay"><span class="mosaic-caption">Youth Resilience</span></div>
+    </div>
+    <div class="mosaic-cell">
+      <img src="https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?w=700&q=80" alt="Speaking up"/>
+      <div class="mosaic-overlay"><span class="mosaic-caption">Speaking Up</span></div>
+    </div>
+  </div>
+
+  <div class="manifesto-band">
+    <p class="section-tag">Our Commitment</p><br/>
+    <p>By leveraging digital platforms, we aim to bridge the gap between generational perspectives and provide a <span>professional, evidence-based space</span> for youth-led discourse. When given the right platform, the youth are not just loud — they are indispensable.</p>
+  </div>
+</div>
+
+<!-- ════════════════ PAGE 3: STORY ════════════════ -->
+<div id="story" class="page">
+  <div class="story-hero">
+    <div class="story-hero-left">
+      <p class="section-tag">Our Story</p>
+      <h1>Where This Began — And Where We're Going</h1>
+      <p>In Cebu and across the Philippines, young people experience their opinions being ignored or dismissed in online forums, community gatherings, and even in households where they are discouraged from speaking up.</p>
+      <p>We saw this problem firsthand. So we decided to do something about it — not with anger, but with evidence, professionalism, and purpose rooted in the belief that civic participation is everyone's right.</p>
+      <button class="btn btn-gold" onclick="showPage('description')" style="margin-top:1rem;">See Our Platform</button>
+    </div>
+    <div class="story-hero-right">
+      <img src="https://images.unsplash.com/photo-1607748862156-7c548e7e98f4?w=900&q=80" alt="Youth leaders"/>
+    </div>
+  </div>
+
+  <div class="values-section">
+    <p class="section-tag">What We Stand For</p>
+    <h2>Our Core Values</h2>
+    <div class="values-grid">
+      <div class="value-card">
+        <div class="value-num">01</div>
+        <div class="value-title">Inclusion</div>
+        <p class="value-text">Every young voice deserves to be heard — regardless of background, economic status, or school. We build spaces that welcome all youth to participate fully.</p>
+      </div>
+      <div class="value-card">
+        <div class="value-num">02</div>
+        <div class="value-title">Evidence</div>
+        <p class="value-text">We back our advocacy with research, data, and real experiences. Youth perspectives are not just opinions — they are informed, lived realities that deserve weight.</p>
+      </div>
+      <div class="value-card">
+        <div class="value-num">03</div>
+        <div class="value-title">Respect</div>
+        <p class="value-text">We engage across generations with civility. We don't fight ageism with hostility — we dismantle it through consistent, dignified dialogue.</p>
+      </div>
+      <div class="value-card">
+        <div class="value-num">04</div>
+        <div class="value-title">Responsibility</div>
+        <p class="value-text">Speaking up isn't rebellion — it is civic duty. Being an engaged citizen is the most responsible thing a young person can do in their community.</p>
+      </div>
+      <div class="value-card">
+        <div class="value-num">05</div>
+        <div class="value-title">Empowerment</div>
+        <p class="value-text">We create tools, content, and platforms that give young people the confidence and resources to participate in public life meaningfully and effectively.</p>
+      </div>
+      <div class="value-card">
+        <div class="value-num">06</div>
+        <div class="value-title">Courage</div>
+        <p class="value-text">Speaking when you've been told to be quiet takes courage. We celebrate every young person who chooses to raise their voice despite the pressure to stay silent.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="ageism-section">
+    <div class="ageism-img">
+      <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?w=900&q=80" alt="Students studying"/>
+    </div>
+    <div class="ageism-text">
+      <p class="section-tag">Anti-Ageism</p>
+      <div class="divider"></div>
+      <h2>The Article That Inspired Us</h2>
+      <p>The article <strong>"Anti-Ageism: Breaking the Barriers of Youth Silencing"</strong> by Padigos (2022) shares powerful personal experiences of being doubted and dismissed despite successfully leading school projects and community programs.</p>
+      <p>It highlights how youth voices are frequently dismissed as "too young" or incapable, even when their ideas are effective and their contributions are real and measurable.</p>
+      <p>The article proves one thing above all: when given the chance, young people can lead, inspire, and create meaningful change. Ageism is a myth — and we are proof of that every single day.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ════════════════ PAGE 4: PLATFORM ════════════════ -->
+<div id="description" class="page">
+  <div class="desc-header">
+    <p class="section-tag">Section III — Description</p>
+    <h1>Our Dual-Platform Approach to Youth Advocacy</h1>
+    <p>Too often, young people's ideas are labeled "immature," leaving them sidelined in conversations that affect them most — education, mental health, social justice. We're changing that by meeting youth where they are: online.</p>
+  </div>
+
+  <div class="platform-section">
+    <p class="section-tag">Our Platforms</p>
+    <h2>Two spaces. One voice. Limitless impact.</h2>
+    <div class="platform-cards">
+      <div class="p-card">
+        <div class="p-card-img">
+          <img src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=800&q=80" alt="Social media platform"/>
+          <div class="p-card-img-overlay"></div>
+        </div>
+        <div class="p-card-body">
+          <div class="p-card-icon">📘</div>
+          <div class="p-card-role">Pulse Center</div>
+          <div class="p-card-name">Facebook Page</div>
+          <p class="p-card-desc">Our real-time engagement hub. This platform hosts real-time opinion polls, digestible "Youth Takes" on current events, and high-impact quote graphics designed to spark constructive dialogue across communities in the Philippines.</p>
+        </div>
+      </div>
+      <div class="p-card">
+        <div class="p-card-img">
+          <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&q=80" alt="Website and technology"/>
+          <div class="p-card-img-overlay"></div>
+        </div>
+        <div class="p-card-body">
+          <div class="p-card-icon">🌐</div>
+          <div class="p-card-role">Intellectual Hub</div>
+          <div class="p-card-name">Official Website</div>
+          <p class="p-card-desc">Our long-form platform featuring youth-written essays, research-backed articles, and advocacy explainers that provide the depth and data necessary to support our claims — and change minds at every level.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="content-types">
+    <p class="section-tag">What We Publish</p>
+    <h2>Content That Makes Youth Voices Undeniable</h2>
+    <div class="content-list">
+      <div class="c-item">
+        <div class="c-icon">📊</div>
+        <div class="c-label">Opinion Polls</div>
+        <p class="c-desc">Real-time surveys on issues that affect Filipino youth today</p>
+      </div>
+      <div class="c-item">
+        <div class="c-icon">✍️</div>
+        <div class="c-label">Youth Takes</div>
+        <p class="c-desc">Short, punchy commentary on current events written by young people</p>
+      </div>
+      <div class="c-item">
+        <div class="c-icon">📰</div>
+        <div class="c-label">Long-Form Essays</div>
+        <p class="c-desc">Evidence-based in-depth articles proving youth can do serious intellectual work</p>
+      </div>
+      <div class="c-item">
+        <div class="c-icon">📣</div>
+        <div class="c-label">Advocacy Graphics</div>
+        <p class="c-desc">High-impact quote cards and infographics designed to inspire and spread widely</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="cta-band">
+    <div class="cta-band-text">
+      <h2>Ready to Make Your Voice Heard?</h2>
+      <p>Join us. Contribute. Speak up. You are not too young.</p>
+    </div>
+    <button class="btn btn-gold" onclick="showPage('contact')" style="white-space:nowrap;">Contact Us →</button>
+  </div>
+</div>
+
+<!-- ════════════════ PAGE 5: CONTACT ════════════════ -->
+<div id="contact" class="page">
+  <div class="contact-hero">
+    <div class="contact-hero-bg">
+      <img src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=1600&q=80" alt="Team collaboration"/>
+    </div>
+    <div class="contact-hero-text">
+      <p class="section-tag">Section IV — Contact Information</p>
+      <h1>Get In Touch With Us</h1>
+    </div>
+  </div>
+
+  <div class="contact-body">
+    <div class="contact-info">
+      <p class="section-tag">Reach Out</p>
+      <h2>For More Information &amp; Details</h2>
+      <p>We welcome collaborators, advocates, educators, and anyone who believes young people deserve a seat at the table. Reach out through any of the channels below — we would love to hear from you.</p>
+
+      <div class="contact-cards">
+        <div class="c-card">
+          <div class="c-card-icon">📞</div>
+          <div>
+            <div class="c-card-label">Phone Number</div>
+            <div class="c-card-val">09937335886</div>
+          </div>
+        </div>
+        <div class="c-card">
+          <div class="c-card-icon">✉️</div>
+          <div>
+            <div class="c-card-label">Email Address</div>
+            <div class="c-card-val">nottooyoungtospeak@gmail.com</div>
+          </div>
+        </div>
+        <div class="c-card">
+          <div class="c-card-icon">👥</div>
+          <div>
+            <div class="c-card-label">Facebook Page</div>
+            <div class="c-card-val">Nottoo Young To Speak</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="location-box">
+        <p class="section-tag">Based In</p>
+        <p class="loc-name">Cebu, Philippines</p>
+        <p class="loc-sub">Serving youth voices across the entire Philippines</p>
+      </div>
+    </div>
+
+    <div class="contact-visual">
+      <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?w=900&q=80" alt="Youth community"/>
+    </div>
+  </div>
+
+  <div class="ref-bar">
+    <strong>Reference:</strong> Padigos, J. M. G. (2022). Anti-ageism: Breaking the barriers of youth silencing. Juan Macaraeg National High School.
+  </div>
+
+  <footer>
+    <span class="footer-logo">Not Too Young To Speak</span>
+    <span>© 2025 · Cebu, Philippines · Youth Advocacy Platform</span>
+  </footer>
+</div>
+
+<script>
+  function showPage(id) {
+    document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+    document.getElementById(id).classList.add('active');
+    document.querySelectorAll('.nav-links a').forEach(a => a.classList.remove('active'));
+    const navEl = document.getElementById('nav-' + id);
+    if (navEl) navEl.classList.add('active');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    document.getElementById('navLinks').classList.remove('open');
+  }
+  function toggleMenu() {
+    document.getElementById('navLinks').classList.toggle('open');
+  }
+</script>
+</body>
+</html>
